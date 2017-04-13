@@ -1,7 +1,45 @@
 @font-face {
-  font-family: "OpenSans-Bold";
-  src: url("../fonts/OpenSans-Bold/OpenSans-Bold.eot");
-  src: local("☺"), url("../fonts/OpenSans-Bold/OpenSans-Bold.woff") format("woff"), url("../fonts/OpenSans-Bold/OpenSans-Bold.ttf") format("truetype"), url("../fonts/OpenSans-Bold/OpenSans-Bold.svg") format("svg");
+  font-family: "LatoRegular";
+  src: url("../fonts/LatoRegular/LatoRegular.eot");
+  src: url("../fonts/LatoRegular/LatoRegular.eot?#iefix")format("embedded-opentype"),
+  url("../fonts/LatoRegular/LatoRegular.woff") format("woff"),
+  url("../fonts/LatoRegular/LatoRegular.ttf") format("truetype");
+  font-style: normal;
   font-weight: normal;
-  font-style: normal; 
+}
+@font-face {
+    font-family: "LatoBold";
+    src: url("../fonts/LatoBold/LatoBold.eot");
+    src: url("../fonts/LatoBold/LatoBold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/LatoBold/LatoBold.woff") format("woff"),
+    url("../fonts/LatoBold/LatoBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "LatoItalic";
+    src: url("../fonts/LatoItalic/LatoItalic.eot");
+    src: url("../fonts/LatoItalic/LatoItalic.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/LatoItalic/LatoItalic.woff") format("woff"),
+    url("../fonts/LatoItalic/LatoItalic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "LatoSemibold";
+    src: url("../fonts/LatoSemibold/LatoSemibold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "LatoSemiboldItalic";
+    src: url("../fonts/LatoSemiboldItalic/LatoSemiboldItalic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "LatoHeavy";
+    src: url("../fonts/LatoHeavy/LatoHeavy.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
 }
