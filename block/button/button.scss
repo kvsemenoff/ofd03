@@ -1,24 +1,34 @@
+.button {
+	text-decoration: none;
+	display: inline-block;
+}
+
 .button_theme_rosa{
-	font-family: 'Lato';
-	font-size: 14px;
-	color: red;
-}
-.button_red{
-	background: red;
-}
-
-@media only screen and (min-width : 320px) {
-}
-
-@media only screen and (min-width : 480px) {
+	font-family: 'LatoBold';
+	color: #fff;
+	font-size: 13px;
+	line-height: 13px;
+	text-transform: uppercase;
+	border-radius: 40px;
+	background-image: url('/img/arrow.png');
+	background-repeat: no-repeat;
 }
 
-@media only screen and (min-width : 768px) {
+.button_red {
+	background-color: #fc5238;
 }
 
-@media only screen and (min-width : 992px) {
+.button_question {
+	padding: 20px 78px 18px 55px;
+	background-position: 75% center;
 }
 
-@media only screen and (min-width : 1248px) {
+.button_pick {
+	padding: 20px 52px 18px 35px;
+	background-position: 90% center;
 }
 
+.button_connect {
+	padding: 20px 60px 18px 40px;
+	background-position: 85% center;
+}

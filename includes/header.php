@@ -11,6 +11,7 @@
 	<link type="text/css" href="css/jquery.jscrollpane.css" rel="stylesheet" media="all" />
 	<link href="https://fonts.googleapis.com/css?family=Fira+Sans+Condensed:300i,500,600,700&amp;subset=cyrillic" rel="stylesheet">
 	<link rel="shortcut icon" href="favicon.ico" />
+	<link rel="stylesheet" href="block/button/button.css">
 	<link rel="stylesheet" href="css/style.css">
 
 </head>
