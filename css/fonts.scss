@@ -27,19 +27,28 @@
 }
 @font-face {
     font-family: "LatoSemibold";
-    src: url("../fonts/LatoSemibold/LatoSemibold.ttf") format("truetype");
+    src: url("../fonts/LatoSemibold/LatoSemibold.eot");
+    src: url("../fonts/LatoSemibold/LatoSemibold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/LatoSemibold/LatoSemibold.woff") format("woff"),
+    url("../fonts/LatoSemibold/LatoSemibold.ttf") format("truetype");
     font-style: normal;
     font-weight: normal;
 }
 @font-face {
     font-family: "LatoSemiboldItalic";
-    src: url("../fonts/LatoSemiboldItalic/LatoSemiboldItalic.ttf") format("truetype");
+    src: url("../fonts/LatoSemiboldItalic/LatoSemiboldItalic.eot");
+    src: url("../fonts/LatoSemiboldItalic/LatoSemiboldItalic.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/LatoSemiboldItalic/LatoSemiboldItalic.woff") format("woff"),
+    url("../fonts/LatoSemiboldItalic/LatoSemiboldItalic.ttf") format("truetype");
     font-style: normal;
     font-weight: normal;
 }
 @font-face {
     font-family: "LatoHeavy";
-    src: url("../fonts/LatoHeavy/LatoHeavy.ttf") format("truetype");
+   src: url("../fonts/LatoHeavy/LatoHeavy.eot");
+    src: url("../fonts/LatoHeavy/LatoHeavy.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/LatoHeavy/LatoHeavy.woff") format("woff"),
+    url("../fonts/LatoHeavy/LatoHeavy.ttf") format("truetype");
     font-style: normal;
     font-weight: normal;
 }
