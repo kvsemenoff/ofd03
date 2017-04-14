@@ -20,6 +20,7 @@
 	<link rel="stylesheet" href="block/h2/h2.css">
 	<link rel="stylesheet" href="block/inputtext/style.css">
 	<link rel="stylesheet" href="block/q/q.css">
+	<link rel="stylesheet" href="block/form/form.css">
 	<link rel="stylesheet" href="css/style-db.css">
 	<link rel="stylesheet" href="css/style-dc.css">
 	<link rel="stylesheet" href="css/style-dd.css">
