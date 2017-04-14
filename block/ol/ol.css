@@ -10,7 +10,7 @@
 
 .ol_theme_rosa__li {
   position: relative;
-  height: 50px;
+  min-height: 50px;
   padding-left: 84px;
   padding-top: 8px;
   margin-bottom: 10px; }
