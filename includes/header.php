@@ -17,6 +17,7 @@
 	<link rel="stylesheet" href="css/fonts.css">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="block/button/button.css">
+	<link rel="stylesheet" href="block/h2/h2.css">
 	<link rel="stylesheet" href="block/inputtext/style.css">
 	<link rel="stylesheet" href="block/q/q.css">
 	<link rel="stylesheet" href="css/style-db.css">

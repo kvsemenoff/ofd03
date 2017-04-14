@@ -107,6 +107,108 @@
 	}
 }
 
+
+/*==========benefit=========*/
+.dfbenefit_theme_rose{
+	background-color: #f2f2f2;	
+}
+.dfbenefit__leftblock_theme_rose{	
+	text-align: center;
+	padding-right: 45px;
+	background-image: url("../img/who-bg.jpg");
+	background-repeat: no-repeat;
+	background-position: top right;
+	background-size: cover;
+	padding: 50px 0px 50px 0;
+	@media only screen and (min-width : 1024px) {
+		padding: 210px 52px 230px 0;
+		float: left;
+		width: 45%;
+		text-align: right;
+	}
+}
+.dfbenefit__caption{
+	width: 270px;	
+	margin: 0 auto;
+	padding-bottom: 22px;
+	@media only screen and (min-width : 1024px) {
+		float: right;
+	}
+}
+.dfbenefit__subtitle{
+	color: white;
+	font-family: "LatoRegular";
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 24px;
+	width: 280px;
+	margin: 0 auto;
+	@media only screen and (min-width : 1024px) {
+		float: right;	
+	}
+}
+
+.dfbenefit__rightblock_theme_rose{
+	// float: left;
+	width: 55%;	
+	margin: 0 auto;
+	padding: 30px 0 0px 5%;
+	@media only screen and (min-width : 1024px) {		
+		float: left;
+		width: 55%;	
+		padding: 60px 0 40px 45px;
+	}
+	@media only screen and (min-width : 1250px) {
+		padding: 90px 0 70px 45px;
+	}
+}
+.dfbenefit__txtbox{
+	max-width: 300px;
+	width: 100%;
+	display: inline-block;
+	padding-bottom: 32px;
+	@media only screen and (min-width : 1250px) {
+		max-width: 337px;
+		padding-bottom: 20px;
+	}
+	@media only screen and (min-width : 1350px) {
+		max-width: 381px;
+	}
+}
+.dfbenefit__txtbox:nth-child(5){
+	padding-bottom: 0;
+}
+.dfbenefit__txtbox:nth-child(6){
+	padding-bottom: 0;
+}
+.dfbenefit__txtbox__img{
+	display: inline-block;
+	height: auto;
+	text-align: center;	
+	vertical-align: top;
+	margin-right: 9px;//9
+	width: 50px;	
+	@media only screen and (min-width : 1250px) {
+		margin-right: 22px;
+	}
+	img{
+		text-align: center;
+	}
+}
+.dfbenefit__txtbox__text{
+	display: inline-block;
+	color: #7a7a7a;
+	font-family: "LatoRegular";
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 24px;
+	max-width: 230px;
+	vertical-align: top;		
+	@media only screen and (min-width : 1250px) {
+		max-width: 250px; //270
+	}	
+}
+
 @media only screen and (min-width : 320px) {
 }
 
