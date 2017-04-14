@@ -1,3 +1,8 @@
-
+.q_theme_rosa {
+  background: url(../../img/quotes.png) no-repeat top left;
+  padding-left: 56px;
+  font-size: 17px;
+  font-family: "LatoItalic";
+  color: #7a7a7a; }
 
 /*# sourceMappingURL=q.css.map */
