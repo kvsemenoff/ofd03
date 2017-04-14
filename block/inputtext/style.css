@@ -1,0 +1,15 @@
+.input_type-text_view {
+  font-family: "LatoItalic";
+  opacity: 0.4;
+  color: #717273;
+  font-size: 15px;
+  font-style: italic;
+  line-height: 24px;
+  min-width: 240px;
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid #717273;
+  padding: 10px 10px;
+  outline: none; }
+
+/*# sourceMappingURL=style.css.map */
