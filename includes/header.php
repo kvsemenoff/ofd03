@@ -32,6 +32,7 @@
 	<?php require_once('includes/header-top.php'); ?>
 
 	<?php require_once('includes/changes.php'); ?>
+	<?php require_once('includes/reality.php'); ?>
 
 	
 
