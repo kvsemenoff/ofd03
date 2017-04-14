@@ -29,6 +29,8 @@
 	<link rel="stylesheet" href="css/style-di.css">
 	<link rel="stylesheet" href="css/style-dj.css">
 
+	<?php require_once('includes/header-top.php'); ?>
+
 	
 
 </head>
