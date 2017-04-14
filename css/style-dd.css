@@ -9,12 +9,14 @@
 @media only screen and (min-width: 992px) {
   .header-top {
     padding: 179px 0px; } }
+
 .header-top__title {
   text-align: center; }
 
 @media only screen and (min-width: 992px) {
   .header-top__title {
     text-align: left; } }
+
 .header-top__title_view {
   font-size: 46px;
   color: #fff;
@@ -41,6 +43,7 @@
     text-align: left;
     margin-top: -14px;
     padding-left: 20px; } }
+
 .header-top__title_el {
   font-family: "LatoRegular";
   opacity: 0.5;
@@ -53,9 +56,8 @@
 @media only screen and (min-width: 992px) {
   .header-top__title_el {
     display: inline-block; } }
+
 .el__2 {
   text-decoration: underline;
   font-weight: 500;
   opacity: 1; }
-
-/*# sourceMappingURL=style-dd.css.map */

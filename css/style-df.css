@@ -11,7 +11,8 @@
 .dfchanges_theme_rose {
   max-width: 840px;
   background-color: white;
-  box-shadow: 0 0 30px rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: 0 0 30px rgba(0, 0, 0, 0.15);
+          box-shadow: 0 0 30px rgba(0, 0, 0, 0.15);
   padding: 30px 15px 45px 15px; }
   @media only screen and (min-width: 992px) {
     .dfchanges_theme_rose {
@@ -98,5 +99,3 @@
     .dfreality__textbox_theme_margin {
       margin-right: 22px;
       margin-bottom: 0; } }
-
-/*# sourceMappingURL=style-df.css.map */
