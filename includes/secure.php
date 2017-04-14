@@ -7,7 +7,7 @@
 			<form action="#" method="post" class="form1 theme__rosa__form-block">
 				<span class="input input_theme_rosa theme__rosa__form-input"><input type="text" class="input__control" name="uname" placeholder="Ваше имя"></span> 
 				<span class="input input_theme_rosa theme__rosa__form-input"><input type="tel" class="input__control js-phone" name="phone" placeholder="Номер телефона" required></span>
-				<a href="#" class="button button_theme_rosa button_red button_connect">Свяжитесь со мной</a>
+				<input type="submit" class="button button_theme_rosa button_red button_connect" value="Свяжитесь со мной">
 			</form>
 		</div>
 	</div>
