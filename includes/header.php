@@ -35,8 +35,3 @@
 
 </head>
 <body>
-	<?php require_once('includes/header-top.php'); ?>
-
-	<?php require_once('includes/changes.php'); ?>
-	<?php require_once('includes/reality.php'); ?>
-	<?php require_once('includes/benefit.php'); ?>
