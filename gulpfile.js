@@ -1,6 +1,21 @@
 //файлы css-файлов
 var css_files = new Array(
-	'css/*.css',
+	'css/reset.css',
+	'css/fonts.css',
+	'css/style.css',
+	'block/button/button.css',
+	'block/inputtext/style.css',
+	'block/q/q.css',
+	'css/style-db.css',
+	'css/style-dc.css',
+	'css/style-dd.css',
+	'css/style-de.css',
+	'css/style-df.css',
+	'css/style-dg.css',
+	'css/style-dh.css',
+	'css/style-di.css',
+	'css/style-dj.css',
+	'css/jquery.jscrollpane.css',
 	'libs/bootstrap/bootstrap-grid-3.3.1.min.css',
 	'libs/fancybox/jquery.fancybox.css', 
 	'libs/owl.carousel/assets/owl.carousel.css'
