@@ -1,2 +1,13 @@
-@import url(reset.css);@import url(fonts.css);@import url(style-db.css);@import url(style-dc.css);@import url(style-de.css);@import url(style-df.css);@import url(style-dg.css);@import url(style-dh.css);@import url(style-di.css);@import url(style-dj.css);.clear{clear:both}.center{text-align:center}body{font-family:'LatoRegular';font-size:15px;line-height:24px;color:#7a7a7a}
+.clear {
+  clear: both; }
+
+.center {
+  text-align: center; }
+
+body {
+  font-family: 'LatoRegular';
+  font-size: 15px;
+  line-height: 24px;
+  color: #7a7a7a; }
+
 /*# sourceMappingURL=style.css.map */
