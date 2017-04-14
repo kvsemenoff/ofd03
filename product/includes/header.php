@@ -7,11 +7,17 @@
 	
 	<link rel="shortcut icon" href="favicon.ico" />
 
+	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid-3.3.1.min.css" />
+	<link rel="stylesheet" href="libs/fancybox/jquery.fancybox.css" />
+	<link rel="stylesheet" href="libs/owl.carousel/assets/owl.carousel.css" />
+	<link type="text/css" href="css/jquery.jscrollpane.css" rel="stylesheet" media="all" />
 
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/fonts.css">
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="block/h2/h2.css">
 	<link rel="stylesheet" href="block/button/button.css">
+	<link rel="stylesheet" href="block/h2/h2.css">
 	<link rel="stylesheet" href="block/inputtext/style.css">
 	<link rel="stylesheet" href="block/q/q.css">
 	<link rel="stylesheet" href="css/style-db.css">
@@ -24,13 +30,13 @@
 	<link rel="stylesheet" href="css/style-di.css">
 	<link rel="stylesheet" href="css/style-dj.css">
 
+	
+	
+
+</head>
+<body>
 	<?php require_once('includes/header-top.php'); ?>
 
 	<?php require_once('includes/changes.php'); ?>
 	<?php require_once('includes/reality.php'); ?>
 	<?php require_once('includes/benefit.php'); ?>
-
-	
-
-</head>
-<body>

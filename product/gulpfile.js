@@ -3,7 +3,6 @@ var css_files = new Array(
 	'css/reset.css',
 	'css/fonts.css',
 	'css/style.css',
-	'block/h2/h2.css',
 	'block/button/button.css',
 	'block/inputtext/style.css',
 	'block/q/q.css',
