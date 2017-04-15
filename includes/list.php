@@ -1,4 +1,4 @@
-<div class="container">
+<div class="container padding">
 	<div class="ol_wrap">
 		<div class="ol_wrap__title">
 			<center><h2 class="h2_theme_rosa h2_dark">Основные положения:</h2></center>

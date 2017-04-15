@@ -6,7 +6,6 @@
 	background:url(../img/header_bg.jpg) no-repeat top center;
 	background-size:cover;
 	padding: 100px 0px;
-	// padding: 179px 0px;
 }
 @media only screen and (min-width : 992px) {
 	.header-top{
@@ -22,7 +21,6 @@
 	}
 }
 .header-top__title_view{
-	// font-size: 46px;
 	font-size: 37px;
 	color:#fff;
 	font-family: 'Fira Sans Condensed';
@@ -32,6 +30,10 @@
 	.header-top__title_view{
 		font-size: 46px;
 	}
+}
+.padding{
+	padding-left: 0 !important;
+	padding-right: 2px !important;
 }
 .header-top__title_view_p{
 	padding-top: 6px;
@@ -130,13 +132,15 @@
 .ol_wrap__title{
 	padding-bottom: 48px;
 }
+.another-wrap{
+	background:#F2F2F2;
+	margin-bottom: 85px;
+}
 .another{
 	margin-bottom: 82px;
-	background:#F2F2F2;
 }
 .another_box__right{
-	
-	padding-left: 50px;
+	padding-left: 10px;
 	padding-bottom: 7px;
 }
 .another_box__title{
@@ -145,28 +149,58 @@
 }
 
 @media only screen and (min-width : 992px) {
-	.another_box{
-		float: left;
-	}
-	.another_box__left{
-		width: 40%;
-		img{
-			width: 100%;
-		}
-	}
 	.another_box__right{
-		width: 60%;
+		padding-left: 50px;
+		padding-bottom: 7px;
 	}
-	.another_box__left{
-		background:url(../img/case.jpg) no-repeat left center;
-		min-height: 489px;
-		img{
-			display: none;
-		}
+
+}
+@media only screen and (min-width : 1248px) {
+	.another-wrap{
+		background:url(../img/bgg.jpg) no-repeat top center;
+		background-size:cover;
+
+	}
+	.another{
+		width: 776px;
+		float: right;
 	}
 }
 
+/* Pop up
+===============================*/
+#mask { position:absolute; left:0; top:0;  z-index:9000;  background-color:#000; width: 100%; height: 100%;  display:none; }
 
+.window{ 
+	display: none;
+	position:absolute;
+	left:0;  
+	top:0;
+    display:none;
+    z-index:9998; 
+    border:none;
+    .form-wrap-main{
+        border:1px solid grey;
+        background: #fff;
+        border-radius:10px;
+        padding: 10px;
+    }
+    .dd-close{
+    	width: 30px;
+    	height: 30px;
+    	background: red;
+    	// background:url(../img/kres.png) #98BE28 no-repeat center;
+    	position:absolute;
+    	top:8px;
+    	right: 8px;
+    	cursor: pointer;
+    	transition: 0.5s;
+    	border-radius:10px;
+    }
+    .dd-close:hover{
+    	// background:url(../img/kres.png) #5F7C0B no-repeat center;
+    }
+}
 
 @media only screen and (min-width : 320px) {
 }
