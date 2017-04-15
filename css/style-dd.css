@@ -9,14 +9,12 @@
 @media only screen and (min-width: 992px) {
   .header-top {
     padding: 179px 0px; } }
-
 .header-top__title {
   text-align: center; }
 
 @media only screen and (min-width: 992px) {
   .header-top__title {
     text-align: left; } }
-
 .header-top__title_view {
   font-size: 37px;
   color: #fff;
@@ -26,7 +24,6 @@
 @media only screen and (min-width: 768px) {
   .header-top__title_view {
     font-size: 46px; } }
-
 .padding {
   padding-left: 0 !important;
   padding-right: 2px !important; }
@@ -43,15 +40,13 @@
 
 .header-top__img {
   text-align: center;
-  margin-top: 50px;
-  padding-left: 35px; }
+  margin-top: 50px; }
 
 @media only screen and (min-width: 992px) {
   .header-top__img {
     text-align: left;
     margin-top: -14px;
     padding-left: 20px; } }
-
 .header-top__title_el {
   font-family: "LatoRegular";
   opacity: 0.5;
@@ -64,7 +59,6 @@
 @media only screen and (min-width: 992px) {
   .header-top__title_el {
     display: inline-block; } }
-
 .el__2 {
   text-decoration: underline;
   font-weight: 500;
@@ -85,7 +79,6 @@
 @media only screen and (min-width: 1248px) {
   .ul_theme_rosa__li {
     min-height: 32px; } }
-
 .ul_theme_rosa__li_last {
   padding-top: 7px;
   padding-bottom: 7px; }
@@ -144,15 +137,14 @@
   .another_box__right {
     padding-left: 50px;
     padding-bottom: 7px; } }
-
 @media only screen and (min-width: 1248px) {
   .another-wrap {
     background: url(../img/bgg.jpg) no-repeat top center;
     background-size: cover; }
+
   .another {
     width: 776px;
     float: right; } }
-
 /* Pop up
 ===============================*/
 #mask {
@@ -176,8 +168,7 @@
   .window .form-wrap-main {
     border: 2px solid grey;
     background: #333537;
-    -webkit-border-radius: 10px;
-            border-radius: 10px;
+    border-radius: 10px;
     padding: 20px; }
   .window .dd-close {
     color: red;
@@ -185,10 +176,8 @@
     top: 8px;
     right: 13px;
     cursor: pointer;
-    -webkit-transition: 0.5s;
     transition: 0.5s;
-    -webkit-border-radius: 10px;
-            border-radius: 10px;
+    border-radius: 10px;
     z-index: 9999; }
   .window .dd-close:hover {
     color: orange; }
@@ -196,3 +185,5 @@
 @media only screen and (min-width: 480px) {
   .window .form-wrap-main {
     padding: 36px; } }
+
+/*# sourceMappingURL=style-dd.css.map */

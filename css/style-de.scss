@@ -6,12 +6,14 @@
 	}
 	.autonomous__row_text{
 		padding: 50px 0 0;
-	}
-	.dfreality__caption{
-		margin-right: 20px;
+	}	
+	@media only screen and (min-width : 992px) {
+		.dfreality__caption{
+			margin-right: 20px;
+		}	
 	}
 	&_h2{
-		text-align: right;
+		text-align: center;
 	}
 	&__text{
 		padding-bottom: 8px;
@@ -62,6 +64,9 @@
 }
 
 @media only screen and (min-width : 992px) {
+	.autonomous_h2 {
+	    text-align: right;
+	}
 }
 
 @media only screen and (min-width : 1248px) {

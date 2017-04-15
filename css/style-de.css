@@ -5,10 +5,11 @@
     border-bottom: 1px solid #ebebeb; }
   .autonomous .autonomous__row_text {
     padding: 50px 0 0; }
-  .autonomous .dfreality__caption {
-    margin-right: 20px; }
+  @media only screen and (min-width: 992px) {
+    .autonomous .dfreality__caption {
+      margin-right: 20px; } }
   .autonomous_h2 {
-    text-align: right; }
+    text-align: center; }
   .autonomous__text {
     padding-bottom: 8px;
     font-size: 15px;
@@ -39,3 +40,9 @@
     padding-bottom: 14px;
     padding-left: 57px;
     background: url(../../img/quotes.png) no-repeat top left 0px; }
+
+@media only screen and (min-width: 992px) {
+  .autonomous_h2 {
+    text-align: right; } }
+
+/*# sourceMappingURL=style-de.css.map */
