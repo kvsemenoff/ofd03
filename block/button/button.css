@@ -2,7 +2,8 @@
   text-decoration: none;
   display: inline-block;
   outline: none;
-  border: none; }
+  border: none;
+  cursor: pointer; }
 
 .button_theme_rosa {
   font-family: 'LatoBold';
@@ -14,14 +15,15 @@
   text-transform: uppercase;
   border-radius: 40px;
   background-repeat: no-repeat;
-  transition: all 3ms ease-in-out;
+  transition: all 5ms;
   padding: 20px 50px; }
 
 .button_red {
   background-color: #fc5238; }
 
 .button_red:hover {
-  background: #fb2606; }
+  background: #fb2606;
+  transition: all 5ms; }
 
 .button_question {
   margin-top: 45px; }

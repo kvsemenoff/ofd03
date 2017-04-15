@@ -3,6 +3,7 @@ var css_files = new Array(
 	'css/reset.css',
 	'css/fonts.css',
 	'css/style.css',
+	'block/h2/h2.css',
 	'block/button/button.css',
 	'block/inputtext/style.css',
 	'block/q/q.css',
@@ -28,11 +29,9 @@ var js_files = new Array(
 	'libs/jquery/jquery-1.11.1.min.js',
 	'libs/owl.carousel/owl.carousel.js',
 	'libs/fancybox/jquery.fancybox.pack.js',
-	'libs/validation/jquery.validate.min.js',
+	'js/jquery.mousewheel.js',
+	'js/responsiveTabs.js',
 	'js/jquery.maskedinput.min.js',
-	'js/is.mobile.js',
-	'js/commonmenu.js',
-	'js/commoncalc.js',
 	'js/common.js'
 );
 //Название общего файла для всех js-скриптов

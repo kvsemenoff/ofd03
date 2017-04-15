@@ -1,8 +1,10 @@
+//Общие для всех кнопок
 .button {
 	text-decoration: none;
 	display: inline-block;
 	outline: none;
 	border: none;
+	cursor: pointer;
 }
 
 .button_theme_rosa{
@@ -16,7 +18,7 @@
 	border-radius: 40px;
 	//background-image: url('/img/arrow.png');
 	background-repeat: no-repeat;
-	transition: all 3ms ease-in-out;
+	transition: all 5ms;
 	padding: 20px 50px;
 
 }
@@ -27,6 +29,7 @@
 }
 .button_red:hover{
 	background: darken(#fc5238, 10%);
+	transition: all 5ms;
 
 }
 .button_question {
