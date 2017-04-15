@@ -7,7 +7,8 @@
 				<span class="input input_theme_rosa theme__rosa__form-input"><input type="text" class="input__control" name="uname" placeholder="Ваше имя"></span> 
 				<span class="input input_theme_rosa theme__rosa__form-input"><input type="tel" class="input__control js-phone" name="phone" placeholder="Номер телефона" required></span>
 				<span class="input input_theme_rosa theme__rosa__form-input"><input type="email" class="input__control" name="email" placeholder="E-mail" required></span>
-				<input type="submit" name="submit" class="button button_theme_rosa button_red button_connect" value="Задать вопрос">
+				<a href="#" class="button button_theme_rosa button_red button_connect"><span>Задать вопрос</span><i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+</a>
 			</form>
 		</div>
 	</div>
