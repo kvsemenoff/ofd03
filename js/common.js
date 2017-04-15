@@ -4,7 +4,7 @@ $(document).ready(function(){
 
 	$('.js-phone').mask("+7(999)999-99-99?");
 
-	$('a[name=modal]').click(function(e) {
+	$('a[data-name=modal]').click(function(e) {
 		e.preventDefault();
 		var id = $(this).attr('href');
 		var maskHeight = $(document).height();

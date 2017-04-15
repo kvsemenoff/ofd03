@@ -1,6 +1,6 @@
 <div class="section section_padding questions">
 	<div class="container">
-		<center><h2 class="h2 h2_theme_rosa h2_white questions-title">Остались вопросы?</h2></center>
+		<h2 class="h2 h2_theme_rosa h2_white questions-title">Остались вопросы?</h2>
 		<span class="subtitle subtitle_theme_rosa subtitle_white questions-subtitle">Оставьте свои данные и наш консультант свяжется с вами в течение 20 минут.</span>
 		<div class="questions__form">
 			<form action="#" method="post" class="form1 theme__rosa__form-block">

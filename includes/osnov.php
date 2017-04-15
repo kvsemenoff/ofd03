@@ -2,7 +2,7 @@
 <div class="container">
 	<div class="ul_wrap">
 		<div class="ul_wrap__title">
-			<center><h2 class="h2_theme_rosa h2_dark">Что еще нужно знать владельцу ККТ</h2></center>
+			<h2 class="h2_theme_rosa h2_dark">Что еще нужно знать владельцу ККТ</h2>
 		</div>
 		<ul class="ul ul_theme_rosa">
 			<li class="ul_theme_rosa__li"><span>Срок действия ключа фискального накопителя в большинстве случаем составляет 13 месяцев,<br/> после чего необходима перерегистрация ФН.</span></li>
