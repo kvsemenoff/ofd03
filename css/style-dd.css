@@ -81,7 +81,8 @@
   .ul_theme_rosa__li {
     min-height: 32px; } }
 .ul_theme_rosa__li_last {
-  padding-top: 7px; }
+  padding-top: 7px;
+  padding-bottom: 7px; }
   .ul_theme_rosa__li_last b {
     color: #2b3135; }
 
