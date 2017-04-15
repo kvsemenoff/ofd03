@@ -1,7 +1,7 @@
 <div class="section section_padding secure">
 	<div class="container secure__container">
-		<center><h2 class="h2 h2_theme_rosa h2_white secure-title">Обезопасьте работу своей 
-контрольно-кассовой техники!</h2></center>
+<h2 class="h2 h2_theme_rosa h2_white secure-title">Обезопасьте работу своей 
+контрольно-кассовой техники!</h2>
 		<span class="subtitle subtitle_theme_rosa subtitle_white secure-subtitle">Закажите <span>БЕСПЛАТНУЮ</span> консультацию у наших экспертов по выбору или модернизации ваших касс:</span>
 		<div class="secure__form">
 			<form action="#" method="post" class="form1 theme__rosa__form-block">

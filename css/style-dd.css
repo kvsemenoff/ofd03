@@ -87,7 +87,8 @@
     min-height: 32px; } }
 
 .ul_theme_rosa__li_last {
-  padding-top: 7px; }
+  padding-top: 7px;
+  padding-bottom: 7px; }
   .ul_theme_rosa__li_last b {
     color: #2b3135; }
 
@@ -97,6 +98,7 @@
   padding-bottom: 100px; }
 
 .h2_theme_rosa {
+  text-align: center;
   font-family: 'Fira Sans Condensed';
   font-size: 36px;
   font-weight: 700;

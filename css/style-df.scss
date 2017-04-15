@@ -44,7 +44,7 @@
 	background-position: top center;
 	background-size: cover;
 	padding: 50px 0 30px 0;	
-	@media only screen and (min-width : 992px) {
+	@media only screen and (min-width : 1170px) {
 		padding: 110px 0 80px 0;
 	}
 }
@@ -53,9 +53,7 @@
 	width: 100%;
 	margin: 0 auto;
 	text-align: center;
-	@media only screen and (min-width : 992px) {
-		text-align: left;
-	}
+	
 }
 
 .h2_theme_rosa{
@@ -77,7 +75,7 @@
 	vertical-align: top;
 	text-align: center;
 	margin-bottom: 30px;
-	@media only screen and (min-width : 992px) {
+	@media only screen and (min-width : 1170px) {
 		margin-right: 39px;
 		margin-bottom: 0;
 		text-align: right;
@@ -91,10 +89,16 @@
 	font-size: 15px;
 	font-weight: 400;
 	line-height: 24px;	
-	display: inline-block;
-	max-width: 365px;//365
+	display: block;	
 	width: 100%;
-	vertical-align: top;	
+	vertical-align: top;
+	text-align: left;	
+	padding: 0 20px;
+	@media only screen and (min-width : 1170px) {
+		display: inline-block;
+		max-width: 365px;//365
+		padding: 0px;
+	}
 	
 }
 .dfreality__height{
@@ -122,18 +126,21 @@
 	background-position: top right;
 	background-size: cover;
 	padding: 50px 0px 50px 0;
-	@media only screen and (min-width : 1024px) {
-		padding: 210px 52px 230px 0;
+	@media only screen and (min-width : 1200px) {
+		padding: 200px 52px 20% 0;//230
 		float: left;
-		width: 45%;
+		width: 34%;
 		text-align: right;
+	}
+	@media only screen and (min-width : 1300px) {
+		padding: 200px 52px 240px 0;//230
 	}
 }
 .dfbenefit__caption{
 	width: 270px;	
 	margin: 0 auto;
 	padding-bottom: 22px;
-	@media only screen and (min-width : 1024px) {
+	@media only screen and (min-width : 1200px) {
 		float: right;
 	}
 }
@@ -145,44 +152,51 @@
 	line-height: 24px;
 	width: 280px;
 	margin: 0 auto;
-	@media only screen and (min-width : 1024px) {
+	@media only screen and (min-width : 1200px) {
 		float: right;	
 	}
 }
 
 .dfbenefit__rightblock_theme_rose{
 	// float: left;
-	width: 55%;	
+	// width: 55%;	
 	margin: 0 auto;
-	padding: 30px 0 0px 5%;
-	@media only screen and (min-width : 1024px) {		
+	padding: 30px 0px 0px 0px;
+	text-align: center;
+	@media only screen and (min-width : 1200px) {		
 		float: left;
-		width: 55%;	
-		padding: 60px 0 40px 45px;
+		text-align: left;
+		width: 65%;	
+		// padding: 60px 0 40px 45px;
+		padding: 90px 0 50px 40px;
 	}
-	@media only screen and (min-width : 1250px) {
-		padding: 90px 0 70px 45px;
-	}
+	// @media only screen and (min-width : 1250px) {
+	// 	padding: 90px 0 50px 45px;
+	// }
 }
 .dfbenefit__txtbox{
 	max-width: 300px;
 	width: 100%;
 	display: inline-block;
 	padding-bottom: 32px;
-	@media only screen and (min-width : 1250px) {
-		max-width: 337px;
+	@media only screen and (min-width : 1200px) {
+		max-width: 360px;		
 		padding-bottom: 20px;
 	}
 	@media only screen and (min-width : 1350px) {
 		max-width: 381px;
 	}
 }
-.dfbenefit__txtbox:nth-child(5){
-	padding-bottom: 0;
+
+@media only screen and (min-width : 1200px) {
+	.dfbenefit__txtbox:nth-child(5){
+		padding-bottom: 0;
+	}
+	.dfbenefit__txtbox:nth-child(6){
+		padding-bottom: 0;
+	}
 }
-.dfbenefit__txtbox:nth-child(6){
-	padding-bottom: 0;
-}
+
 .dfbenefit__txtbox__img{
 	display: inline-block;
 	height: auto;
@@ -190,7 +204,7 @@
 	vertical-align: top;
 	margin-right: 9px;//9
 	width: 50px;	
-	@media only screen and (min-width : 1250px) {
+	@media only screen and (min-width : 1200px) {
 		margin-right: 22px;
 	}
 	img{
@@ -204,10 +218,11 @@
 	font-size: 15px;
 	font-weight: 400;
 	line-height: 24px;
-	max-width: 230px;
-	vertical-align: top;		
-	@media only screen and (min-width : 1250px) {
-		max-width: 250px; //270
+	max-width: 205px;//230
+	vertical-align: top;	
+	text-align: left;	
+	@media only screen and (min-width : 1200px) {
+		max-width: 255px; //270
 	}	
 }
 
