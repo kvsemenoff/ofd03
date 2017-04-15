@@ -1,7 +1,7 @@
 <div class="container padding">
 	<div class="ol_wrap">
 		<div class="ol_wrap__title">
-			<center><h2 class="h2_theme_rosa h2_dark">Основные положения:</h2></center>
+			<h2 class="h2_theme_rosa h2_dark">Основные положения:</h2>
 		</div>
 		<ol class="ol ol_theme_rosa ol_color">
 			<li class="ol_theme_rosa__li "><span>Теперь для регистрации ККТ необязательно привозить ее в налоговые органы<br/> появилась возможность регистрации на сайте ФНС России.</span></li>

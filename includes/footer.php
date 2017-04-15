@@ -29,7 +29,7 @@
 		</div>
 	</div>
 </div>
-<a href="#thanks" name="modal"></a>
+<a href="#thanks" name="data-modal"></a>
 
 
 
