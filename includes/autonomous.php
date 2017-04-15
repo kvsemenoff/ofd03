@@ -1,7 +1,7 @@
 <div class="section section_padding autonomous">
 	<div class="container">
 		<div class="autonomous__row autonomous__row_descr clearfix">
-			<div class="col-md-4">
+			<div class="col-md-4 autonomous_h2">
 				<h2 class="h2 h2_theme_rosa h2_dark dfreality__caption">Автономный <br>режим работы </h2>
 			</div>
 			<div class="col-md-8">

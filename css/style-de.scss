@@ -1,11 +1,17 @@
 .autonomous{
-	padding: 100px 0;
+	padding: 109px 0 45px;
 	.autonomous__row_descr{
-		padding: 0 0 30px;
+		padding: 0 0 35px;
 		border-bottom: 1px solid #ebebeb;
 	}
 	.autonomous__row_text{
 		padding: 50px 0 0;
+	}
+	.dfreality__caption{
+		margin-right: 20px;
+	}
+	&_h2{
+		text-align: right;
 	}
 	&__text{
 		padding-bottom: 8px;
@@ -38,6 +44,11 @@
 		font-size: 15px;
 		text-decoration: underline;
 		display: inline-block;
+	}
+	.q_theme_rosa{
+		padding-bottom: 14px;
+		padding-left: 57px;
+    background: url(../../img/quotes.png) no-repeat top left 0px;
 	}
 }
 
