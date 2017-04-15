@@ -165,19 +165,24 @@
   z-index: 9998;
   border: none; }
   .window .form-wrap-main {
-    border: 1px solid grey;
-    background: #fff;
+    border: 2px solid grey;
+    background: #333537;
     border-radius: 10px;
-    padding: 10px; }
+    padding: 20px; }
   .window .dd-close {
-    width: 30px;
-    height: 30px;
-    background: red;
+    color: red;
     position: absolute;
     top: 8px;
-    right: 8px;
+    right: 13px;
     cursor: pointer;
     transition: 0.5s;
-    border-radius: 10px; }
+    border-radius: 10px;
+    z-index: 9999; }
+  .window .dd-close:hover {
+    color: orange; }
+
+@media only screen and (min-width: 480px) {
+  .window .form-wrap-main {
+    padding: 36px; } }
 
 /*# sourceMappingURL=style-dd.css.map */
